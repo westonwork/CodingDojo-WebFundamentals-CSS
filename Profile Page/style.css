@@ -1,0 +1,232 @@
+/* Navbar Code */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto,sans-serif;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1628155524928-35c02b8ac4d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmlnJTIwYmFuZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.nav {
+    background-color: rgb(39, 39, 43);
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+
+}
+
+.navTitle {
+    color: white;
+    justify-content: flex-start;
+    margin-left: 55px;
+}
+
+.navLinks {
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+}
+
+.btn {
+    background-color: rgb(216, 53, 53);
+    color: white;
+    font-size: 15px;
+    border: 2px solid rgb(108, 26, 26);
+    box-shadow: 1px 1px 1px rgb(108, 26, 26);
+    padding: 10px;
+}
+
+/* User Card Section */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.userCard {
+    width: 500px;
+    background-color: white;
+    border: 3px solid rgb(216, 53, 53);
+    margin: 75px;
+}
+
+.headerUser {
+    background-color: rgb(216, 53, 53);
+    height: 100px;
+}
+
+.profilePicture {
+    height: 125px;
+    width: 125px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.name {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mapMarker {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.infoHeadline {
+    margin-left: 20px;
+}
+
+.editProfile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#gear {
+    height: 20px;
+    margin-right: 10px;
+}
+
+/* Education Section */
+
+.educationCard {
+    width: 500px;
+    background-color: white;
+    border: 3px solid rgb(108, 26, 26);
+    text-align: left;
+    margin-left: 75px;
+    margin-top: -30px;
+}
+
+.headerEducation {
+    background-color: rgb(108, 26, 26);
+    color: white;
+    height: 50px;
+}
+
+.headerEducation h2 {
+    margin-left: 10px;
+    padding: 10px;
+}
+
+.infoEducation {
+    margin-left: 20px;
+}
+
+.infoEducation h3 {
+    margin-top: 10px;
+}
+
+.infoEducation p {
+    color: white;
+    margin-bottom: 15px;
+    color: darkgray;
+    margin-left: 10px;
+}
+
+/* Friend Request & Your Connections Section */
+
+.rightSide {
+    margin-top: 75px;
+}
+
+.friendRequestCard {
+    width: 400px;
+    background-color: white;
+    border: 3px solid rgb(108, 26, 26);
+    text-align: left;
+}
+
+.circle {
+    background-color: darkgray;
+    color:  rgb(39, 39, 43);
+    border-radius: 100%;
+    padding: 5px 10px;
+}
+
+.headerFriendRequest {
+    background-color: rgb(108, 26, 26);
+    color: white;
+    height: 75px;
+}
+
+.headerFriendRequest h2 {
+    padding: 20px;
+}
+
+.friendRequest {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.friendPart1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.friendRequest img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid black;
+}
+
+#acceptReject {
+    border: none;
+}
+
+.ConnectionCard {
+    width: 400px;
+    background-color: white;
+    border: 3px solid rgb(108, 26, 26);
+    text-align: left;
+    margin-top: 50px;
+}
+
+/* View More Mini-Section */
+
+.headerViewMore {
+    color: white;
+    height: 30px;
+    background-color: white;
+    border: 3px solid rgb(108, 26, 26);
+    padding-left: 20px;
+    padding-top: 10px;
+}

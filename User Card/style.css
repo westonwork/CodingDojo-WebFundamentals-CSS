@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 750px;
+    background-color: white;
+    border: 3px solid rgb(216, 53, 53);
+    font-family: roboto, sans-serif;
+    margin: 75px;
+}
+
+.header {
+    background-color: rgb(216, 53, 53);
+    height: 100px;
+}
+
+.profilePicture {
+    height: 125px;
+    width: 125px;
+    margin-left: 20px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-top: 20px;
+}
+
+.name {
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#mapMarker {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.headlineInfo {
+    margin-left: 20px;
+}
+
+.editProfile {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#gear {
+    height: 20px;
+    margin-right: 10px;
+}

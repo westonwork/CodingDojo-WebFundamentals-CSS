@@ -1,0 +1,39 @@
+* {
+    color: darkblue;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+body {
+    background-color:lightcyan;
+}
+
+.firstCats {
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;
+}
+
+.secondCats {
+    background-color: dodgerblue;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+.thirdCats {
+    background-color: royalblue;
+    display: flex;
+    flex-wrap: row;
+    justify-content: space-evenly;
+    margin: 20px;
+    padding: 20px;
+}
+
+.img-octocats {
+    Height: 200px;
+}

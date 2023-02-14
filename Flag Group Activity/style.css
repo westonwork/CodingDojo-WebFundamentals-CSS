@@ -1,0 +1,38 @@
+.yellow {
+    background-color: yellow;
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blue1 {
+    background-color: blue;
+    width: 30%;
+    height: 40%;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+.blue2 {
+    background-color: blue;
+    width: 50%;
+    height: 40%;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+.blue3 {
+    background-color: blue;
+    width: 30%;
+    height: 40%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.blue4 {
+    background-color: blue;
+    width: 50%;
+    height: 40%;
+    justify-content: flex-end;
+    align-items: flex-end
+}
